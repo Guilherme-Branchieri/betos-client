@@ -694,13 +694,13 @@ a:focus {
 /*team section end*/
 /* client section start */
 .client_section {
-  background-image: url("/images/herb-background.jpg");
+  background-image: url("../images/herb-background.jpg");
   width: 100%;
   display: table;
   max-width: 100%;
   background-size: cover;
   height: 100vh; /* Adjust as needed */
-  background-position: 50% 80%; /* Adjust as needed */
+  background-position: 50% -50%; /* Adjust as needed */
 }
 
 
