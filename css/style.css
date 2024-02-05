@@ -695,9 +695,7 @@ a:focus {
 /* client section start */
 .client_section {
   background-image: url("../images/herb-background.jpg");
-  width: 100%;
-  display: table;
-  max-width: 100%;
+  max-width: 100vw;
   background-size: cover;
   height: 100vh; /* Adjust as needed */
   background-position: 50% -50%; /* Adjust as needed */
