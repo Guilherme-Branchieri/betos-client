@@ -693,9 +693,23 @@ a:focus {
 
 /*team section end*/
 /* client section start */
+.client_section {
+  background-image: url("/images/herb-background.jpg");
+  width: 100%;
+  display: table;
+  max-width: 100%;
+  background-size: cover;
+  height: 100vh; /* Adjust as needed */
+  background-position: 50% 80%; /* Adjust as needed */
+}
+
+
+
 .client_section .heading_container {
   margin-bottom: 30px;
+  color: white;
 }
+
 
 .client_section .box {
   display: -webkit-box;
@@ -792,7 +806,7 @@ a:focus {
 
 /* client section end */
 .info_section {
-  background-color: #00204a;
+  background: linear-gradient(130deg, #4169E1, #87CEEB );
   color: #ffffff;
   padding: 45px 0 15px 0;
 }
@@ -826,7 +840,7 @@ a:focus {
 }
 
 .info_section .info_contact .contact_link_box a:hover {
-  color: #00bbf0;
+  color: #FFA500;
 }
 
 .info_section .info_social {
@@ -854,7 +868,7 @@ a:focus {
 }
 
 .info_section .info_social a:hover {
-  color: #00bbf0;
+  color: #FFA500;
 }
 
 .info_section .info_links {
@@ -881,7 +895,7 @@ a:focus {
 }
 
 .info_section .info_links a:hover {
-  color: #00bbf0;
+  color: #FFA500;
 }
 
 .info_section form input {
@@ -915,7 +929,7 @@ a:focus {
   text-align: center;
   display: inline-block;
   padding: 10px 55px;
-  background-color: #00bbf0;
+  background-color: #FFA500;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -925,7 +939,7 @@ a:focus {
 }
 
 .info_section form button:hover {
-  background-color: #007fa4;
+  background-color: #ffa600b6;
 }
 
 /* footer section*/
